@@ -12,9 +12,9 @@ import junit.framework.Assert;
 public class EtsyPage {
 	public static void main(String[] args) throws InterruptedException {
 	
+	//first change
 	System.setProperty("webdriver.chrome.driver","/Users/nihaltemel/Documents/Libraries/drivers/chromedriver");
 	WebDriver driver=new ChromeDriver();
-	
 	
 
 	driver.get("https://www.google.com/");
